@@ -62,7 +62,7 @@ It’s a full-featured, interactive COVID-19 data dashboard built with **Dash** 
    ```bash
    python app.py  # or whatever your main Dash file is called
    ```
-   Then open `http://localhost:8050` — and hope you didn’t typo a callback.
+   Then open `http://localhost:8050` 
 
 ---
 
@@ -73,13 +73,14 @@ covid-dashboard/
 ├── app.py                    ← Main Dash app (callbacks, layout, server)
 ├── data_loader.py            ← Loads & cleans JHU CSVs
 ├── forecasting.py            ← Fits models, returns predictions
-├── requirements.txt          ← All your pip needs
-├── assets/                   ← CSS, images, favicon.ico
-│   └── style.css
-├── dataset/                  ← Your JHU CSVs live here
+├── requirements.txt          ← All your pip needed libraries               
+│   
+├── dataset/                  ← Your dataset CSVs 
 │   ├── confirmed.csv
 │   ├── deaths.csv
-│   └── recovered.csv
+│   ├── recovered.csv
+│    └──  ......
+│    
 └── README.md                 ← You’re reading it. Hi.
 ```
 ---

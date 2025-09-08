@@ -1,5 +1,3 @@
----
-
 # 🦠 COVID-19 Interactive Dashboard (Built with Dash, Not Streamlit)
 
 > “Wait, you used Dash? That’s actually kinda hardcore.” — Random Dev at a Hackathon

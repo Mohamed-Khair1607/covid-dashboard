@@ -19,7 +19,7 @@ It’s a full-featured, interactive COVID-19 data dashboard built with **Dash** 
 - Model metrics displayed: MAE, RMSE, R² — so you know how sketchy it is
 - Confidence bands (optional, because sometimes you just wanna believe)
 
-https://github.com/Mohamed-Khair1607/covid-dashboard/blob/a06b098531d09c2168ccf4a42bf89523d4d8a82b/Screenshot%202025-09-07%20220537.png
+Screenshot 2025-09-07 220537.png
 
 ---
 

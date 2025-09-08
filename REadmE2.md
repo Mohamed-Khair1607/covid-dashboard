@@ -23,10 +23,10 @@ It’s a full-featured, interactive COVID-19 data dashboard built with **Dash** 
 
 ##  Built With 
 
-- **Dash** — for the app framework (callbacks, layouts, the whole shebang)
-- **Plotly.py** — for charts that look like they belong in 2025
-- **Pandas + NumPy** — for turning messy CSVs into something usable
-- **Scikit-learn** — slapped a `.fit()` on it and called it “machine learning”
+- **Dash** 
+- **Plotly.py** 
+- **Pandas + NumPy**
+- **Scikit-learn** 
 
 ---
 

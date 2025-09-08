@@ -1,7 +1,3 @@
-Ah — my bad. Big oversight. You’re rocking **Dash**, not Streamlit. That changes *everything* about deployment, structure, and even how we talk about it.
-
-Let’s scrap the Streamlit-flavored README and rebuild it from the ground up — **Dash-native**, human-written, no fluff, no AI-speak, and with deployment options that actually match your stack.
-
 ---
 
 # 🦠 COVID-19 Interactive Dashboard (Built with Dash, Not Streamlit)
@@ -101,62 +97,7 @@ Also, free public access > paywalled dashboards. Still true.
 
 ---
 
-## ☁️ How to Deploy This (Without Losing Your Mind)
-
-Since you’re using **Dash**, you’ve got options. Streamlit Cloud won’t work. Here’s what will:
-
----
-
-### 🆓 Option 1: Render (Free Tier — Easy Mode)
-
-Render is like “Heroku but less dead.” Free for personal projects.
-
-1. Push your code to GitHub
-2. Go to [https://render.com](https://render.com) → sign up
-3. Click “New Web Service” → connect repo
-4. Set:
-   - **Environment**: Python 3
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python app.py`
-5. Hit deploy. Grab coffee. Celebrate.
-
-> ✅ Auto-deploys on `git push`. Free SSL. Custom domain optional.
-
----
-
-### 🐳 Option 2: Docker + Railway / Fly.io / Heroku
-
-If you’re feeling fancy:
-
-1. Write a simple `Dockerfile`:
-   ```dockerfile
-   FROM python:3.9-slim
-   WORKDIR /app
-   COPY requirements.txt .
-   RUN pip install -r requirements.txt
-   COPY . .
-   CMD ["python", "app.py"]
-   ```
-
-2. Deploy to:
-   - [railway.app](https://railway.app) (free tier, easy Docker deploy)
-   - [fly.io](https://fly.io) (`fly launch` does 90% of the work)
-   - Heroku (if you’ve got credits left)
-
----
-
-### 🏢 Option 3: At Work? Use Dash Enterprise
-
-If your company has money → [Dash Enterprise by Plotly](https://plotly.com/dash/)
-
-- One-click deploy
-- User auth
-- Monitoring, scaling, SSO
-- Costs $$$ — but worth it for prod apps
-
----
-
-## 📁 Folder Structure (The Real One)
+##  Folder Structure 
 
 ```
 covid-dashboard/
@@ -174,39 +115,16 @@ covid-dashboard/
 ```
 
 ---
+Found a bug? Think my layout looks like a 2007 Geocities page?
+---
 
-## 🙏 Help Me Not Break This
+##  IMPORTANT DISCLAIMER
 
-Found a bug? Think my layout looks like a 2005 Geocities page?
-
-→ **Open an issue.** Bonus points for screenshots and console errors.  
-→ **PRs welcome.** Just don’t delete all my CSS. I’m proud of that 10px margin.  
-→ **Docs confusing?** Rewrite them. I’ll thank you in the next commit.
+> This app was built for **learning, research, and mild procrastination**. The predictions? Based on old data + simple models. **Do NOT use this to make real public health decisions.** 
 
 ---
 
-## 📜 License
-
-MIT — Do whatever. Sell it. Fork it. Put it on a billboard. Just don’t blame me if the forecast says “everyone dies” and it doesn’t happen.
-
----
-
-## 🙇 Shoutouts
-
-- Johns Hopkins CSSE — for the cleanest pandemic data we’ll ever get  
-- Plotly + Dash team — for giving us a Python framework that doesn’t treat us like children  
-- My cat — for walking on my keyboard during deployment. You’re the real MVP.
-
----
-
-## ⚠️ IMPORTANT DISCLAIMER
-
-> This app was built for **learning, research, and mild procrastination**. The predictions? Based on old data + simple models. **Do NOT use this to make real public health decisions.** If you do, I will send you a strongly worded email (and maybe a meme).
-
----
-
-Made with 💥 stubbornness and Dash callbacks.  
-Deploy it. Break it. Fix it. Share it.
+ Share it.
 
 ---
 

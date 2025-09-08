@@ -32,7 +32,7 @@ It’s a full-featured, interactive COVID-19 data dashboard built with **Dash** 
 
 ## 🚀 How to Run This Locally
 
-1. **Prereqs**: Python 3.8+, terminal courage, and a tolerance for `pip install` logs.
+1. **Prereqs**: Python 3.8+, terminal , and a tolerance for `pip install` logs.
 
 2. **Clone that repo**
    ```bash
@@ -40,24 +40,25 @@ It’s a full-featured, interactive COVID-19 data dashboard built with **Dash** 
    cd covid-dashboard
    ```
 
-3. **Virtual env? Do it.**
+3. **Virtual env.**
    ```bash
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
    ```
 
-4. **Install the universe**
+4. **Install the libraries**
    ```bash
    pip install -r requirements.txt
    ```
 
 5. **Data time**
    - Create a folder: `dataset/`
-   - Grab these from the JHU GitHub repo:
+   - Grab all datasets from this GitHub repo:
      - `time_series_covid_19_confirmed.csv`
      - `time_series_covid_19_deaths.csv`
      - `time_series_covid_19_recovered.csv`
-
+     - .....
+       
 6. **Fire it up**
    ```bash
    python app.py  # or whatever your main Dash file is called

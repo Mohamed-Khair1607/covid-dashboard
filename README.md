@@ -101,10 +101,4 @@ covid-dashboard/
 ```
 ---
 
-##  IMPORTANT DISCLAIMER
-
-> This app was built for **learning, research, and mild procrastination**. The predictions? Based on old data + simple models. **Do NOT use this to make real public health decisions.** 
-
----
-
  Share it.

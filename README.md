@@ -1,4 +1,4 @@
-# 🦠 COVID-19 Interactive Dashboard (Built with Dash, Not Streamlit)
+# 🦠 COVID-19 Interactive Dashboard 
 ---
 
 ##  What is this ?
